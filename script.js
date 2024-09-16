@@ -1,7 +1,7 @@
-//your JS code here. If required.
-let nameInput = document.getElemenById("fname");
+const nameInput = document.getElementById('fname');
 
-
-nameInput.addEventListener("blur" , ()=>{
-	nameInput.value = nameInput.value.toUpperCase();
-})
+// Add an event listener for 'blur' event (which occurs when the input loses focus)
+nameInput.addEventListener('blur', function() {
+    // Convert the input value to uppercase
+    nameInput.value = nameInput.value.toUpperCase();
+});
