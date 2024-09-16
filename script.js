@@ -1,5 +1,5 @@
 //your JS code here. If required.
- let nameInput = document.getElemenById("fname");
+ const nameInput = document.getElemenById("fname");
 
 
  nameInput.addEventListener("blur" , ()=>{
